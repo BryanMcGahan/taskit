@@ -1,0 +1,25 @@
+{
+  "name": "taskit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@inkjs/ui": "^1.0.0",
+    "@types/crypto-js": "^4.1.2",
+    "crypto-js": "^4.1.1",
+    "ink": "^4.4.1",
+    "react": "^18.2.0"
+  }
+}
